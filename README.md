@@ -39,7 +39,8 @@ Or
 
 ```bash
 103.101.x.x:8000 
-``` (Also Accessable With PUBLIC IP).
+``` 
+(Also Accessable With PUBLIC IP).
 (!!MAKE SURE THAT THE FIREWALL NEEDS TO ALLOW PORT 8000 FOR INCOMING / OUTGOING TRAFFIC TO ACCESS THE WEB APP WITH PUBLIC IP)
 
 # Dependencies
