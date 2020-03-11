@@ -38,7 +38,37 @@ Or
 Or
 
 ```bash
-103.101.x.x:8000 (PUBLIC IP) (!!MAKE SURE THAT THE FIREWALL NEEDS TO ALLOW PORT 8000 FOR INCOMING / OUTGOING TRAFFIC TO ACCESS THE WEB APP WITH PUBLIC IP)
+103.101.x.x:8000``` (Also Accessable With PUBLIC IP).
+(!!MAKE SURE THAT THE FIREWALL NEEDS TO ALLOW PORT 8000 FOR INCOMING / OUTGOING TRAFFIC TO ACCESS THE WEB APP WITH PUBLIC IP)
+
+# Dependencies
+
+1 . NodeJS : To Install NodeJS (Simply Use The Following Command)
+
+ For Ubuntu , Debian Based Systems
+ ```bash 
+root@localhost~# apt-get install nodejs -y
 ```
+ For CentOS , RedHat Based Systems
+```bash
+[root@localhost ~]$ yum install -y nodejs
+```
+
+2. Update Socket.io In NodeJS : Socket.io Module Of NodeJS Is Already Installed In This WebApp . You Just Need To Update It .
+   
+  To Update Simple Go To The WebApp Folder ( Which You Have Cloned ) . Then Simply Run The Command
+  ```bash
+root@localhost~# npm install socket.io
+```
+
+3. Update EJS In NodeJS : EJS Module Of NodeJS Is Already Installed In This Web App . You Just Need To Update It .
+
+   To Update Simple Go To The WebApp Folder ( Which You Have Cloned ) . Then Simply Run The Command
+   ```bash
+ root@localhost~# npm install ejs
+   ```
+    
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
