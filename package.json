@@ -1,0 +1,24 @@
+{
+  "name": "group-chat",
+  "version": "1.12.0",
+  "description": "RealTime Group Chat App Made In NodeJS , Socket.io,express .",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Made By Anubhab\");"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Anubhab",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  }
+
+
+
+}
+
