@@ -66,9 +66,9 @@ root@localhost~# npm install socket.io
 3. Update EJS In NodeJS : EJS Module Of NodeJS Is Already Installed In This Web App . You Just Need To Update It .
 
    To Update Simple Go To The WebApp Folder ( Which You Have Cloned ) . Then Simply Run The Command
-   ```bash
+```bash
  root@localhost~# npm install ejs
-   ```
+```
     
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
