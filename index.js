@@ -5,8 +5,8 @@ const io = require('socket.io')(http);
 
 //Mention The Port Here
 
-var port = process.env.port || 8000;
-
+var port = process.env.PORT || 8000;
+                           
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
