@@ -1,0 +1,26 @@
+{
+  "name": "groupchat-herokusupport",
+  "version": "1.12.0-Heroku",
+  "description": "RealTime Group Chat App Made In NodeJS , Socket.io,express With Heroku Support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Made By Anubhab\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4d-Tools/RealTimeGroupChat-WebApp.git"
+  },
+  "author": "Anubhab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4d-Tools/RealTimeGroupChat-WebApp/issues"
+  },
+  "homepage": "https://github.com/4d-Tools/RealTimeGroupChat-WebApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  }
+}
