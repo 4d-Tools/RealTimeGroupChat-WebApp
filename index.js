@@ -2,15 +2,15 @@ const express = require('express');
 const app = express();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
- 
+
 //Mention The Port Here
 
-var port = 8000;
+var port = process.env.port || 8000;
 
-
+app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-    res.render('index.ejs');
+    res.render('index.ejs', {port: port});
 });
 
 

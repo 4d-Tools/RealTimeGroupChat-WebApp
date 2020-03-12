@@ -23,11 +23,14 @@
       <input id="txt" autocomplete="off" autofocus="on" oninput="isTyping()" placeholder="type your message here..." /><button>Send</button>
     </form>
     <script>
+            
+            
+            
+
                     
-            var socket = io.connect('http://127.0.0.1:8000');
-                                                     
-            // submit text message without reload/refresh the page
-            $('form').submit(function(e){
+            var socket = io.connect('http://127.0.0.1:<%=port%>');
+          // submit text message without reload/refresh the page
+              $('form').submit(function(e){
                 e.preventDefault(); // prevents page reloading
                 socket.emit('chat_message', $('#txt').val());
                 $('#txt').val('');
